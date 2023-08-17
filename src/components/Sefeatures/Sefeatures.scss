@@ -1,11 +1,15 @@
-.all{
-    background-color: aqua;
+.alls{
+    background-color: rgb(184, 246, 246);
     padding: 10px;
+    border-radius: 10px;
+    max-width: 1530px;
+    margin: 0 auto;
 }
 .title{
     margin-top: 40px;
     h2{
         margin: 10px;
+        font-size: 50px;
     }
     p{
         margin: 10px;
@@ -14,16 +18,17 @@
 .box1{
     margin-top: 50px;
 }
-.box1_title{
+.box_title{
     display: flex;
     i{
         padding: 5px;
+        font-size: 20px;
     }
     p{
         padding: 5px;
+        font-size: 20px;
     }
 }
 .menu{
-    width: 1691px;
     height: 541px;
 }
