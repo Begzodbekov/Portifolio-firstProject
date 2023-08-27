@@ -1,0 +1,135 @@
+.container {
+    width: 1600px;
+    height: 4070px;
+    box-sizing: border-box;
+}
+
+.container__2 {
+    width: 1580px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.container__3 {
+    width: 1443px; 
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.feature__title {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 180%;
+}
+
+.feature__p {
+    color: #696984;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    margin-bottom: 100px;
+}
+
+.titles {
+    width: 1600px;
+    text-align: center;
+}
+
+.container__2__img__1 {
+    z-index: -1;
+}
+
+.container__2__text__1 {
+    width: 542px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+
+    .two__text__1 {
+        margin-right: 15px;
+    }
+
+    .two__text__2 {
+        margin-right: 15px;
+    }
+
+    .two__text__3 {
+        margin-right: 15px;
+    }
+}
+
+.Elipse1__text {
+    color: #696984;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.44px;
+    margin-bottom: 40px;
+    margin-top: 51px;
+}
+
+.Elipse2__text {
+    color: #696984;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.44px;
+    margin-bottom: 40px;
+
+}
+
+.Elipse3__text {
+    color: #696984;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.44px;
+    margin-bottom: 194px;
+}
+
+.container__2__part__2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+}
+
+.container__2__elipse__1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__3__text__2 {
+    width: 568px;
+    color: #696984;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.44px;
+}
+
+.container__3__text__1 {
+    width: 393px;;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.text1__c3__t1{
+    margin-right: 15px;
+}

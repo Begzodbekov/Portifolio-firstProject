@@ -1,7 +1,6 @@
 
 .container__head {
     width: 1300px;
-    height: 708px;
     flex-shrink: 0;
     margin-bottom: 170px;
     box-sizing: border-box;
@@ -9,7 +8,6 @@
 
 .container__body {
     width: 1547px;
-    height: 512px;
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
@@ -19,10 +17,6 @@
     display: flex;
     flex-direction: row;
     margin-top: 77px;
-}
-
-.all {
-    display: none;
 }
 
 .card1 {
@@ -200,3 +194,4 @@
         z-index: -1;
     }
 }
+
