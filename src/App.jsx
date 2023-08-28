@@ -21,7 +21,7 @@ function App() {
       <Totc/>
       <Features/>
       <Sefeatures/>
-      {/* <Courses/> */}
+      <Courses/>
       <Testimonial/>
       <News/>
       <Footer/>
