@@ -4,8 +4,9 @@ import Logo from '../../img/header-logo.png'
 function Header() {
   return (
     <div className='Header'>
-      <div className="nav">
-        <div className="container">
+      <div className="container">
+        <div className="nav">
+        
           <div className="nav_inner">
              <img src={Logo} alt="" />
              <ul className='nav_list'>

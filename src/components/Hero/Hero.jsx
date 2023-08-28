@@ -5,13 +5,13 @@ import Class from '../../img/hero-men-class.png'
 import Message from '../../img/hero-pochta.png'
 import Voice from '../../img/hero-voice.png'
 import Watch from '../../img/hero-watch.png'
-import Woman from '../../img/herowoman-background.png'
+import Background from '../../img/her-background.png'
 function Hero() {
   return (
     <div className='Hero'>
         <div className="container">
           <div className="hero-innner">
-           
+           <img className='hero-backgroundimg' src={Background} alt="" />
               <div className='hero-left-inner'>
                    <h1><span>Studying</span> Online is now much easier</h1>
                    <p>TOTC is an interesting platform that will teach you in more an interactive way</p>
@@ -53,7 +53,6 @@ function Hero() {
                     </div>
                   </div>
                 </div>
-              {/* <div>  <img className='hero-right-background' src={Woman} alt="" /></div> */}
               </div>
             
           </div>

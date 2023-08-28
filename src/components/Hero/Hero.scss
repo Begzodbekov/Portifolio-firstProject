@@ -1,15 +1,22 @@
 .Hero{
-    background-image: url('../../img/her-background.png');
     width: 100%;
     height: 1118px;
-    background-repeat: no-repeat;
     overflow: hidden;
+    // background-color:#49BBBD ;
+    // background-image: url('../../img/her-background.png');
+    // background-repeat: no-repeat;
 }
 .hero-innner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1676px;
+    height: 1033px;
+    .hero-backgroundimg{
+        margin-left: -398px;    
+        height: 1194px;
+        margin-top: -199px;
+    }
     .hero-right-background{
         margin-top: -390px;
         position: absolute;
@@ -17,8 +24,8 @@
     }
 }
 .hero-left-inner{
-    margin-left: -370px;
-    margin-top: 208px;
+    margin-left: -1945px;
+    margin-top: -120.9px;
     h1{
         color: #FFF;
         font-family: Poppins;
@@ -82,6 +89,8 @@
     align-items: center;
     width: 1200px;
     position: relative;
+    margin-top: -301px;
+    margin-right: 122px;
     .hero-right-items1{
         display: flex;
         flex-direction: column;
@@ -129,6 +138,7 @@
         justify-content: space-around;
         align-items: center;
         height: 700px;
+        margin-left: 112px;
     }
     .hero-right-item2{
         .hero-voice{
