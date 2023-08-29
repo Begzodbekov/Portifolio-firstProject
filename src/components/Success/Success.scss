@@ -1,0 +1,38 @@
+.success-inner{
+    margin-top: 134px;
+    text-align: center;
+    h1{
+        font-size: 48px;
+    }
+    .success-description{
+        // font-size: 18px;
+        width: 750px;
+        color: var(--half-dark-text-color, rgba(1, 5, 20, 0.80));
+        text-align: center;
+        font-family: Buenos Aires Trial;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 28.8px */
+        margin-left: 185px;
+        margin-top: 16px;
+    }
+}
+.success-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 101px;
+    margin-left: -94px;
+    width: 1300px;
+    div{
+        p{
+            color: var(--half-dark-text-color, rgba(1, 5, 20, 0.80));
+            font-family: Buenos Aires Trial;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%; /* 41.6px */
+        }
+    }
+}

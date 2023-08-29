@@ -11,6 +11,7 @@
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
+    margin-left: -60px;
 }
 
 .card__container {
@@ -133,17 +134,20 @@
         font-style: normal;
         font-weight: 500;
         line-height: 160%;
+        margin-left: -31px;
+        width: 700px;
     }
 
     .part1__circle1 {
-        margin-top: -20px;
+        margin-top: -14px;
         left: 425px;
         position: absolute;
         z-index: -1;
+        margin-left: -157px;
     }
 
     .part1__p {
-        width: 730px;
+        width: 669px;
         color: #696984;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 24px;
@@ -151,6 +155,9 @@
         font-weight: 400;
         line-height: 180%;
         letter-spacing: 0.48px;
+        margin-left: -31px;
+        margin-top: 30px;
+        letter-spacing: 1px;
     }
 
     .part1__link {
@@ -162,6 +169,7 @@
         font-weight: 400;
         line-height: 180%;
         text-decoration-line: underline;
+        margin-left: -31px;
     }
 }
 
@@ -174,24 +182,23 @@
         flex-shrink: 0;
         border-radius: 20px;
         background: #23BDEE;
-        position: absolute;
-        top: 970px;
-        right: 670px;
+        margin-left: -33px;
         margin-bottom: 50px;
-        z-index: -1;
+        margin-top: -53px;
     }
 
     .box2 {
         width: 231px;
         height: 231px;
-        flex-shrink: 0;
         border-radius: 20px;
         background: #33EFA0;
-        position: absolute;
-        top: 1300px;
-        right: 67px;
-        bottom: 0px;
-        z-index: -1;
+        margin-left: 476px;
+        margin-top: 140px;
+    }
+    img{
+        margin-top: -494px ;
+        margin-left: -18px;
+        margin-bottom: 35px;
     }
 }
 

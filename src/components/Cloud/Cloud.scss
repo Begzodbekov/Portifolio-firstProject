@@ -1,0 +1,86 @@
+.Cloud{
+    margin-bottom: 158px;
+}
+.cloud-inner{
+    margin-top: 131px;
+    text-align: center;
+    .cloud-title{
+        color: #2F327D;
+        font-family: Poppins;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 180%; /* 64.8px */
+        span{
+            color: #00CBB8;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 180%;
+        }
+    }
+    .cloud-description{
+        color: #696984;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%; /* 43.2px */
+        width: 859px;
+        margin-left: 145px;
+        margin-top: 24px;
+    }
+    .cloud-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1449px;
+        margin-left: -145px;
+        margin-top: 160px;
+        div{
+            border-radius: 20px;
+            background: #FFF;
+            box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+            width: 450px;
+            height: 470px;
+            flex-shrink: 0;
+            img{
+                margin-top: -77px;
+            }
+            h1{
+                color: #2F327D;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: 52px;
+                padding-left: 52px;
+                padding-right: 53px;
+                letter-spacing: 1px;
+            }
+            p{
+                margin-top: 24px;
+                color: #696984;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 22px;
+                line-height: 180%;
+                padding-left: 68px;
+                padding-right: 36px;
+                width: 320px;
+            }
+            .list-title{
+                margin-top: 71px;
+            }
+            .list-description{
+                margin-top: 35px;
+                margin-left: 13px;
+                width: 306px;
+            }
+        }
+    }
+}

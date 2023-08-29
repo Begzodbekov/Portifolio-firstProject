@@ -1,30 +1,32 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.scss';
-import Cloud from './components/Cloud/Cloud';
-import Courses from './components/Courses/Courses';
-import Features from './components/Features/Features';
-import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import News from './components/News/News';
-import Sefeatures from './components/Sefeatures/Sefeatures';
-import Success from './components/Success/Success';
-import Testimonial from './components/Testimonial/Testimonial';
-import Totc from './components/Totc/Totc';
+import Home from './pages/Home/Home';
+import Courses from './pages/Courses/Courses';
+import Careers from './pages/Careers/Careers';
+import Blog from './pages/Blog/Blog';
+import About from './pages/About/About';
+import Footer from './components/Footer/Footer';
+import Login from './pages/Login/Login';
+import Signup from './pages/Signup/Signup';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Hero/>
-      <Success/>  
-      <Cloud/>
-      <Totc/>
-      <Features/>
-      <Sefeatures/>
-      <Courses/>
-      <Testimonial/>
-      <News/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/courses' element={<Courses/>}/>
+        <Route path='/careers' element={<Careers/>}/>
+        <Route path='/blog' element={<Blog/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
+      </Routes>
       <Footer/>
+      
+
+
     </div>
   );
 }
