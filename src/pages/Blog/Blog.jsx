@@ -3,6 +3,7 @@ import './Blog.scss'
 import Logo from '../../img/courses-logo.png'
 import { Link } from 'react-router-dom'
 import Dashboard from '../../img/courses-dashboard.png'
+import BlogUI from '../../components/BlogUI/BlogUI'
 function Blog() {
   return (
     <div className='Blog'>
@@ -24,8 +25,12 @@ function Blog() {
              </div>
           </div>
         </div>
+
+        <BlogUI/>
+        
     </div>
-  )
+
+)
 }
 
 export default Blog
