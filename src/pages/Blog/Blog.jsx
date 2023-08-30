@@ -1,13 +1,13 @@
 import React from 'react'
 import './Blog.scss'
-import Headerp from '../../components/HeaderP/Headerp'
-
+import BlogUI from '../../components/BlogUI/BlogUI'
 function Blog() {
   return (
     <div className='Blog'>
-      {/* <Header/>  */}
+        <BlogUI/>
     </div>
-  )
+
+)
 }
 
 export default Blog
