@@ -4,7 +4,7 @@ import Related from '../../components/Related/Related'
 import BlogUI from '../../components/BlogUI/BlogUI'
 function Blog() {
   return (
-    <div className='Blog'>
+    <div className='blog container'>
           <Related/>
         <BlogUI/>
     </div>
