@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.scss';
-import Header from './components/Header/Header';
+// import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
 import Courses from './pages/Courses/Courses';
 import Careers from './pages/Careers/Careers';
@@ -13,7 +13,6 @@ import Signup from './pages/Signup/Signup';
 function App() {
   return (
     <div className="App">
-      <Header/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/courses' element={<Courses/>}/>

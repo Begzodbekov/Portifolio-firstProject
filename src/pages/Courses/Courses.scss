@@ -1,0 +1,39 @@
+
+.course-nav{
+    padding-top: 27px;
+    margin-left: 114px;
+    .course-nav_inner{
+        width: 1638px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        .course-nav_list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 658px;
+            position: relative;
+            margin-left: 642px;
+            li{
+                color: black;
+                font-size: 18px;
+                letter-spacing: 0.44px;
+                .course-nav-list-pages{
+                    color: black;
+                }
+                
+            }
+           
+        }
+        .courses-profil{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 130px;
+            .courses-select{
+                border: none;
+            }
+        }
+    }
+}

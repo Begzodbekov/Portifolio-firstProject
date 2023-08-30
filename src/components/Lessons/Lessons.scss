@@ -1,0 +1,32 @@
+.Lessons{
+    background-color: rgb(157 204 255 / 20%);
+}
+
+.lessons-inner{
+    height: 785px;
+    .lessons-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 1629px;
+        margin-left: -278px;
+        h1{
+            color: #252641;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        p{
+            color: #49BBBD;
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}
