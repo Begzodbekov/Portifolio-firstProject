@@ -13,7 +13,7 @@ import Course from '../../components/Courses/Courses'
 function Home() {
   return (
     <div className='Home'>
-        <Header/>
+        {/* <Header/> */}
         <Hero/>
         <Success/>  
         <Cloud/>
