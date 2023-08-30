@@ -1,8 +1,11 @@
 import React from 'react'
+import img from '../../img/smiling-woman-with-afro-posing-pink-sweater 1.png'
+import './Testimonial.scss'
 
 function Testimonial() {
   return (
     <div className='Testimonial'>
+      <div className="abd">
        <div className="say__item">
         <div className="say__left">
           <p className='left__p'>
@@ -28,7 +31,7 @@ function Testimonial() {
         <div className="say__right">
           <div className="big">
             <div className="say__right__inner">
-              <img src={sayRight} alt="img" />
+              <img src={img} alt="img" />
               <span className='say__right__bottom'>
                 <p>
                   "Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. TOTC is exactly what our business has been lacking."
@@ -56,6 +59,7 @@ function Testimonial() {
           </div>
 
         </div>
+      </div>
       </div>
     </div>
   )
