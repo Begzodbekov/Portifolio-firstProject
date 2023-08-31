@@ -1,11 +1,15 @@
 import React from 'react'
+<<<<<<< HEAD
 import './Login.scss'
 import leftInner from '../../img//left__inner.png'
+=======
+>>>>>>> c05bb3ff381a7650ad029c1e53af342790b8eb3a
 import { Link } from 'react-router-dom'
 
 function Login() {
   return (
     <div className='Login'>
+<<<<<<< HEAD
       <div className="inner">
         <div className="left__inner">
           <img className='inner__img' src={leftInner } alt="" />
@@ -35,6 +39,10 @@ function Login() {
           <button className='last__btn'>Login</button>
         </div>
       </div>
+=======
+        <h1>Login</h1>
+        <Link></Link>
+>>>>>>> c05bb3ff381a7650ad029c1e53af342790b8eb3a
     </div>
   )
 }

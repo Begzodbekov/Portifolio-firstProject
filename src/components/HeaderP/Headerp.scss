@@ -1,0 +1,39 @@
+
+.headerp-nav{
+          padding-top: 27px;
+          margin-left: 114px;
+          .headerp-nav_inner{
+              width: 1638px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-bottom: 30px;
+              .headerp-nav_list{
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  width: 658px;
+                  position: relative;
+                  margin-left: 642px;
+                  li{
+                      color: black;
+                      font-size: 18px;
+                      letter-spacing: 0.44px;
+                      .headerp-nav-list-pages{
+                          color: black;
+                      }
+                      
+                  }
+                 
+              }
+              .headerp-profil{
+                  display: flex;
+                  justify-content: space-around;
+                  align-items: center;
+                  width: 130px;
+                  .headerp-select{
+                      border: none;
+                  }
+              }
+          }
+      }

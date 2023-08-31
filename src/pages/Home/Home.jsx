@@ -9,11 +9,12 @@ import Sefeatures from '../../components/Sefeatures/Sefeatures'
 import Testimonial from '../../components/Testimonial/Testimonial'
 import News from '../../components/News/News'
 import Course from '../../components/Courses/Courses'
+// import Recommended from '../../components/Recommended/Recommended'
 
 function Home() {
   return (
     <div className='Home'>
-        <Header/>
+        {/* <Header/> */}
         <Hero/>
         <Success/>  
         <Cloud/>
@@ -23,6 +24,7 @@ function Home() {
         <Course/>
         <Testimonial/>
         <News/>
+        {/* <Recommended/> */}
     </div>
   )
 }

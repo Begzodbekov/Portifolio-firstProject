@@ -1,0 +1,47 @@
+.block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.abd{
+    width: 1630px;
+    margin: 0 auto;
+    padding: 0 10px;
+    h1{
+        margin-top: 30px;
+    }
+}
+.box{
+    display: grid;
+    place-items: center;
+    margin: 50px;
+    width: 249px;
+    height: 277px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 18.829999923706055px 47.08000183105469px 0px rgba(47, 50, 125, 0.10);
+    i{
+        font-size: 50px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    p{
+        text-align: center;
+    }
+}
+.purple{
+    background-color:  #5B72EE4D;
+  
+}
+.green{
+    background: #00CBB84D;
+}
+.blue{
+    background: #9DCCFF4D;
+}
+.gray{
+    background-color: gray;
+}
+.yellow{
+    background: #F48C064D;
+}

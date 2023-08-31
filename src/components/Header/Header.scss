@@ -1,3 +1,6 @@
+.Headers{
+    background-color: white;
+}
 .Header{
     background-color: rgba(73, 187, 189, 1);
 }
@@ -9,6 +12,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        .img{
+            display: block;
+        }
+        .imgs{
+            display: none;
+        }
         .nav_list{
             display: flex;
             justify-content: space-between;
@@ -16,7 +25,6 @@
             width: 826px;
             position: relative;
             li{
-                color: #FFF;
                 font-size: 18px;
                 letter-spacing: 0.44px;
                 .nav-list-pages{
@@ -52,6 +60,9 @@
                 font-weight: 500;
                 letter-spacing: 0.44px;
                 margin-right: -126px;
+            }
+            .active{
+                color: red;
             }
         }
     }
