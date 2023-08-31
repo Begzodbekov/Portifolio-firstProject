@@ -36,13 +36,13 @@ function Testimonial() {
                 <p>
                   "Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. TOTC is exactly what our business has been lacking."
                 </p>
-                <span className='text'>
+                <span className='say-text'>
                   <span >
                     <h4>
                       Gloria Rose
                     </h4>
                   </span>
-                  <span className='icons'>
+                  <span className='testimonals-icons'>
                     <i className="bi bi-star"></i>
                     <i className="bi bi-star"></i>
                     <i className="bi bi-star"></i>

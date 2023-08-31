@@ -3,27 +3,28 @@
     justify-content: center;
     align-items: center;
 }
-.inner{
+.signup-inner{
     width: 1302px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 37px;
 }
-.inner__img{
+.signup-inner__img{
     width: 737px;
     height: 825px;
 }
-.right__inner{
+.signup-right__inner{
     width: 454px;
     height: 611px;
 }
-.inner__tittle{
+.signup-inner__tittle{
     text-align: center;
     font-weight: 400;
 
 }
 
-.our__btns{
+.signup-our__btns{
     width: 329px;
     height: 59px;
     background-color: #49BBBD99;
@@ -34,7 +35,7 @@
     align-items: center;
     justify-content: space-around;
 }
-.login__btn{
+.signup-login__btn{
     padding: 8px 52px;
     border: none;
     background-color:transparent;
@@ -44,7 +45,7 @@
     font-weight: 500;
     line-height: normal;
 }
-.regis__btn{
+.signup-regis__btn{
     padding: 8px 52px;
     border: none;
     background-color:transparent;
@@ -54,15 +55,15 @@
     font-weight: 500;
     line-height: normal;
 }
-.inner__info{
+.signup-inner__info{
     color: #5B5B5B;
     line-height: normal;
     margin-top: 52px;
 }
-.user__name{
+.signup-user__name{
     margin-top: 42px;
 }
-.inp__user-name{
+.signup-inp__user-name{
     margin-top: 12px;
     padding: 15px 245px 16px 31px;
     border-radius: 40px;
@@ -71,10 +72,10 @@
     font-size: 15;
     font-weight: 300;
 }
-.password{
+.signup-password{
     margin-top: 42px;
 }
-.inp__password{
+.signup-inp__password{
     margin-top: 12px;
     padding: 15px 245px 16px 31px;
     border-radius: 40px;
@@ -84,7 +85,7 @@
     font-weight: 300;
 }
 
-.register{
+.signup-register{
     margin-top: 62px;
     width: 232px;
     height: 49px;
@@ -94,7 +95,7 @@
     color: white;
     margin-left: 213px;
 }
-.bi{
+.bis{
     margin-left: 400px;
     display: block;
     margin-top: -34px;
