@@ -1,4 +1,3 @@
-
 .container__head {
     width: 1300px;
     flex-shrink: 0;
@@ -68,17 +67,30 @@
     height: 80px;
     flex-shrink: 0;
     border-radius: 80px;
-    border: 1px solid #FFF;
     margin-top: 17px;
-    background-color: transparent;
+    border: none;
+
     //text
-    color: #FFF;
+
     text-align: center;
     font-family: Poppins;
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
+    &::before,
+    &::after {
+        content: '';
+        transition: width 0.3s ease, background-color 0.3s ease;
+    }
+    &:hover {
+        &::before,
+        &::after {
+            width: 50%;
+            background-color: rgba(35, 189, 238, 0.90);
+        }
+    }
 }
 
 .card2__btn {
@@ -195,10 +207,10 @@
         margin-left: 476px;
         margin-top: 140px;
     }
-    img{
-        margin-top: -494px ;
+
+    img {
+        margin-top: -494px;
         margin-left: -18px;
         margin-bottom: 35px;
     }
 }
-

@@ -29,4 +29,12 @@
             line-height: normal;
         }
     }
+    .lessons-lists{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        overflow: hidden;
+        width: 1525px;
+        margin-left: -314px;
+    }
 }

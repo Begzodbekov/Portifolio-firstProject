@@ -1,0 +1,64 @@
+@mixin flexes($align, $justify) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+// @mixin text($size, $weight, $line, $color) {
+//   font-size: $size;
+//   font-weight: $weight;
+//   line-height: $line;
+//   color: $color;
+// }
+
+.blog_ui{
+  width: 100%;
+  height: auto;
+  background: #9DCCFF;
+  padding: 80px;
+}
+
+.blog_ui_inner{
+  @include flexes(center, space-between);
+  // width: 1440px;
+  // margin-left: -298px;
+  width: auto;
+  margin-left: -288px;
+}
+
+.blog_ui_text{
+  width: 35%;
+}
+b{
+  font-size: 24px;
+  font-weight: 700;
+  color: #49BBBD;
+}
+.blog_ui_text_1{
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+.blog_ui_text_2{
+  font-size: 44px;
+  font-weight: 600;
+  color: #2F327D;
+  margin-top: 24px;
+}
+.blog_ui_text_3{
+  font-size: 24px;
+  font-weight: 400;
+  color: #696984;
+  margin-top: 14px;
+}
+#blogUI_btn{
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  background: #49BBBD;
+  padding: 18px 40px;
+  cursor: pointer;
+  margin-top: 25px;
+}
