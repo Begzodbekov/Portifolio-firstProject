@@ -9,9 +9,9 @@
 }
 .nav{
     padding-top: 27px;
-    margin-left: -312px;
+    margin-left: -248px;
     .nav_inner{
-        width: 1548px;
+        width: 1447px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -34,15 +34,19 @@
                 font-size: 18px;
                 letter-spacing: 0.44px;
                 .nav-list-pages{
+                    text-decoration: none;
                     color: white;
                 }
                 .nav-list-pages2{
+                    text-decoration: none;
                     color:rgba(91, 91, 91, 1);
                 }
                 .nav-list-login{
+                    text-decoration: none;
                     color: rgba(91, 91, 91, 1);
                 }
                 .nav-list-sign{
+                    text-decoration: none;
                     color: rgba(255, 255, 255, 1);
                 }
                 
