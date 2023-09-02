@@ -36,8 +36,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 1449px;
-        margin-left: -145px;
+        width: 1491px;
+        margin-left: -82px;
         margin-top: 160px;
         div{
             border-radius: 20px;
@@ -69,17 +69,21 @@
                 font-family: Poppins;
                 font-size: 22px;
                 line-height: 180%;
-                padding-left: 68px;
-                padding-right: 36px;
-                width: 320px;
+                padding-left: 19px;
+                    padding-right: 36px;
+                    width: 465px;
+            }
+            .cloud-list-title1{
+                width: 476px;
+                margin-left: -10px;
             }
             .list-title{
-                margin-top: 71px;
+                margin-top: 81px;
             }
             .list-description{
-                margin-top: 35px;
-                margin-left: 13px;
-                width: 306px;
+                margin-top: 36px;
+                margin-left: 18px;
+                width: 439px;
             }
         }
     }

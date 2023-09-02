@@ -13,7 +13,7 @@ function Cloud() {
             <div className="cloud-list">
               <div>
                 <img src={Billing} alt="" />
-                <h1>Online Billing, Invoicing, & Contracts</h1>
+                <h1 className='cloud-list-title1'>Online Billing, Invoicing, & Contracts</h1>
                 <p>Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
               </div>
               <div>

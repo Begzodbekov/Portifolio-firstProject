@@ -1,12 +1,14 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './Header.scss'
 import Logo from '../../img/header-logo.png'
 import Dashboard from '../../img/courses-dashboard.png'
 import { Link, useLocation } from 'react-router-dom'
 import Blacklogo from '../../img/courses-logo.png'
+import { Context } from '../../Context/Context'
 function Header() {
   const location = useLocation().pathname
-  console.log(location); 
+  // console.log(location); 
+  const {orders, setOrders} = useContext(Context)
   return (
     <div className={location == '/' ? 'Header' :'Headers'}>
       <div className="container">
@@ -26,7 +28,7 @@ function Header() {
              <div className={location != '/' ? 'header-profil':'header-profil2'}>
               <img src={Dashboard} alt="" />
               <select className='header-select' name="select" id="1">
-                <option value="">Line</option>      
+                <option value="">{orders}</option>      
               </select>
              </div>
           </div>
