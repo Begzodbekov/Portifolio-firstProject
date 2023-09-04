@@ -1,7 +1,7 @@
 import React from 'react'
 import './News.scss';
 import img1 from '../../img/Rectangle 32.png'
-import img2 from '../../img/Rectangle 33.png'
+// import img2 from '../../img/Re'
 import img3 from '../../img/Rectangle 34.png'
 import img4 from '../../img/Rectangle 37 (1).png'
 function News() {
@@ -27,7 +27,7 @@ function News() {
             <div className="right__laster">
                  <ul className='laster__list'>
                   <li className='laster__item'>
-                    <img className='first__img' src={img2} alt="img" />
+                    <img className='first__img' src='' alt="img" />
                     <h5 className='first__tittle'>Class Technologies Inc. Closes $30 Million <br /> Series A Financing to Meet High Demand</h5>
                     <p className='first__info'>Class Technologies Inc., the company that <br /> created Class,...</p>
                   </li>
