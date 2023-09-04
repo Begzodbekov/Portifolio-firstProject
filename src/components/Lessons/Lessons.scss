@@ -4,13 +4,14 @@
 
 .lessons-inner{
     height: 785px;
+    margin-left: 33px;
     .lessons-title{
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-top: 50px;
         padding-bottom: 50px;
-        width: 1629px;
+        width: 1683px;
         margin-left: -278px;
         h1{
             color: #252641;
@@ -34,7 +35,42 @@
         justify-content: space-around;
         align-items: center;
         overflow: hidden;
-        width: 1525px;
-        margin-left: -314px;
+        width: 1806px;
+        margin-left: -336px;
+        padding-left: 1194px;
+        gap: 50px;
+        :nth-child(4){
+            margin-left: 43px;
+        }
+        .lessons-items{
+            padding: 19px 20px 12px;
+            border-radius: 20px;
+            background-color: #FFF;
+            box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.10);
+            .lessons-items_img{
+                height: 258.377px;
+            }
+            h2{
+                margin-top: 12px;
+            }
+            .lessons-div{
+                margin-top: 16px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 90px;
+            }
+            .lessons-list_p{
+                margin-top: 12px;
+                margin-left: 403px;
+                font-size: 14px;
+            }
+            .progress{
+                margin-top: 30px;
+                .lessons-progress{
+                    background-color: #49BBBD;
+                }
+            }
+        }
     }
 }

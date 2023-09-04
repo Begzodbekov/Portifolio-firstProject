@@ -13,15 +13,18 @@ function Lessons() {
                 <ul className='lessons-lists'>
                   {
                     lessond?.map((item,index)=>(
-                      <li key={index}>
-                        <img src={item.img} alt="" />
+                      <li className='lessons-items' key={index}>
+                        <img className='lessons-items_img' src={item.img} alt="" />
                         <h2>{item.title}</h2>
-                        <div>
+                        <div className='lessons-div'>
                           <img src={item.human} alt="" />
                           <p>{item.name}</p>
                         </div>
-                        <span></span>
-                        <p>Lesson 5 of 7</p>
+                        <div class="progress">
+                          <div class="progress-bar lessons-progress w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        {/* <span className='lesson-item-line'></span> */}
+                        <p className='lessons-list_p'>Lesson 5 of 7</p>
                       </li>
                     ))
                   }
