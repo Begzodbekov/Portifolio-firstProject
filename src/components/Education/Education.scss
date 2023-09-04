@@ -1,0 +1,19 @@
+.first-item{
+    background-image: url('../../img/education-img.png');
+    background-repeat: none;
+    width: 506px;
+    height: 477px;
+    padding: 40px 50px;
+    span{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        color: white;
+        // display: block;
+        // margin-top: 40px;
+        border-radius: 12px;
+        text-align: center;
+        padding:35px 20px;
+        margin-left: 50px;
+    }
+}

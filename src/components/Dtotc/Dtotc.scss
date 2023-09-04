@@ -1,120 +1,16 @@
-.container__head {
-    width: 1300px;
-    flex-shrink: 0;
-    margin-bottom: 170px;
-    box-sizing: border-box;
-}
-
 .container__body {
     width: 1547px;
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
     margin-left: -60px;
+    margin-top: 220px;
 }
-
 .card__container {
     display: flex;
     flex-direction: row;
     margin-top: 77px;
 }
-
-.card1 {
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    height: 403px;
-    flex-shrink: 0;
-    background-image: url(../../img/card1.png);
-    align-items: center;
-    margin-right: 100px;
-
-    h2 {
-        margin-top: 132px;
-        color: #FFF;
-        text-align: center;
-        font-family: Poppins;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-}
-
-.card2 {
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    height: 400px;
-    flex-shrink: 0;
-    background-color: #fff;
-    background-image: url(../../img/card2.png);
-
-    h2 {
-        margin-top: 132px;
-        color: #FFF;
-        text-align: center;
-        font-family: Poppins;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-
-}
-
-.card1__btn {
-    width: 283px;
-    height: 80px;
-    flex-shrink: 0;
-    border-radius: 80px;
-    margin-top: 17px;
-    border: none;
-
-    //text
-
-    text-align: center;
-    font-family: Poppins;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-
-    &::before,
-    &::after {
-        content: '';
-        transition: width 0.3s ease, background-color 0.3s ease;
-    }
-    &:hover {
-        &::before,
-        &::after {
-            width: 50%;
-            background-color: rgba(35, 189, 238, 0.90);
-        }
-    }
-}
-
-.card2__btn {
-    width: 283px;
-    height: 80px;
-    flex-shrink: 0;
-    border-radius: 80px;
-    background: rgba(35, 189, 238, 0.90);
-    border: none;
-    margin-top: 17px;
-    margin-left: 159px;
-
-    //text
-    color: #FFF;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-
-}
-
 .head__title {
     text-align: center;
     font-family: Poppins;
@@ -123,7 +19,6 @@
     font-weight: 600;
     line-height: 180%;
 }
-
 .head__p {
     width: 1101px;
     color: #696984;
@@ -135,7 +30,6 @@
     line-height: 180%;
     letter-spacing: 0.48px;
 }
-
 .part1 {
     display: flex;
     flex-direction: column;
@@ -172,7 +66,7 @@
         margin-top: 30px;
         letter-spacing: 1px;
     }
-
+    
     .part1__link {
         margin-top: 30px;
         color: #696984;
