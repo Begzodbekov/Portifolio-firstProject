@@ -1,8 +1,21 @@
+.container__recommended {
+    background-color: #9DCCFF;
+    width: 100%;
+    height: 1022px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
 .recommended__titles {
     margin-left: 139px;
     margin-top: 97px;
     margin-right: 138px;
     margin-bottom: 47px;
+    width: 1643px;
+    height: 48px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .rec__link1 {
@@ -12,4 +25,130 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 1358px;
+    margin-top: 115px;
+}
+
+.rec__title1 {
+    margin-top: 115px;
+}
+
+.recommended__list {
+    width: 1733.3px;
+    height: 617px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 139px;
+    margin-top: 192px;
+    margin-bottom: 213px;
+    margin-right: 135px;
+    overflow: hidden;
+}
+
+
+
+.cards__text {
+    display: flex;
+    flex-direction: row;
+}
+
+.Design {
+    display: flex;
+    flex-direction: row;
+
+    .Design__text {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+
+.clock {
+    margin-left: 139px;
+    display: flex;
+    flex-direction: row;
+
+    .clock__text {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+
+.card1__title1 {
+    width: 324px;
+    height: 77px;
+    flex-shrink: 0;
+    color: #252641;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card1__title2 {
+    width: 328px;
+    height: 102px;
+    flex-shrink: 0;
+    color: #696984;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.36px;
+}
+
+.img4 {
+    border-radius: 22px;
+    background: url(), lightgray -11.204px -3.279px / 141.078% 161.839% no-repeat;
+}
+
+.Lina__card {
+    display: flex;
+    flex-direction: row;
+    height: 44px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    .Lina {
+        margin-left: 18px;
+        margin-top: 16px;
+    }
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    margin-left: 109px;
+
+    .dollar2 {
+        margin-left: 14px;
+        color: #49BBBD;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.48px;
+    }
+
+    .dollar__1 {
+        color: rgba(0, 0, 0, 0.50);
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.36px;
+        margin-top: 6px;
+    }
+}
+
+.recommended__cards{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.10);
+    padding-top: 20px;
+    padding-bottom: 38px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 50px;
 }
