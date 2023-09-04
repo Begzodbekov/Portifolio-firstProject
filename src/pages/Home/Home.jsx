@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../../components/Header/Header'
 import Hero from '../../components/Hero/Hero'
 import Success from '../../components/Success/Success'
 import Cloud from '../../components/Cloud/Cloud'
@@ -13,7 +12,6 @@ import Course from '../../components/Courses/Courses'
 function Home() {
   return (
     <div className='Home'>
-        <Header/>
         <Hero/>
         <Success/>  
         <Cloud/>

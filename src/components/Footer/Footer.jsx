@@ -1,12 +1,13 @@
 import React from 'react'
 import './Footer.scss'
 import footer from '../../img/Group 111.png'
+import { useLocation } from 'react-router-dom'
 
 
 function Footer() {
+  const Flocation = useLocation().pathname
   return (
-  
-    <div className='footer'>
+    <div className={Flocation == '/signup' || Flocation == '/login'? 'footers':'footer'}>
       <div className="abd">
         <img className='footer_img' src={footer} alt="" />
       <h5 className='footer__tittle'>Virtual Class <br />   for Zoom</h5>

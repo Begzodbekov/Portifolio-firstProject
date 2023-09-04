@@ -1,0 +1,206 @@
+.related {
+    // display: flex;
+    background-color: #b3d7fd;
+    
+    width: 1910px;
+    height: 1268px;
+    flex-shrink: 0;
+    margin-left: -8px;
+    overflow: hidden;
+}
+
+.related__top {
+    width: 1784px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -418px;
+    margin-top: 93px;
+
+    p {
+        margin-left: 120px;
+        color: #000;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.6px;
+    }
+
+    .related__top1 {
+        color: #49BBBD;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+}
+
+.related__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 41px 100px;
+    gap: 99px;
+
+}
+
+.big {
+    padding: 60px 34px;
+
+    .related__list-inner {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        gap: 10px;
+        padding-bottom: 23px;
+
+        p {
+            color: #000;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.36px;
+            padding-top: 23px;
+
+        }
+    }
+}
+
+.related__list-item {
+
+    width: 790px;
+    height: 899.571px;
+    background-color: #fff;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 18.829999923706055px 47.08000183105469px 0px rgba(47, 50, 125, 0.10);
+    margin-right: 25px;
+
+    .related__list-div {
+        img {
+            padding-top: -20px;
+            width: 700px;
+            height: 390px;
+        }
+
+        p {
+            color: #252641;
+            font-family: Poppins;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 180%;
+            /* 46.8px */
+            width: 684.798px;
+            height: 105.7px;
+            flex-shrink: 0;
+        }
+    }
+}
+
+.related__p {
+    color: #696984;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 36px */
+    letter-spacing: 0.4px;
+    width: 684.798px;
+    height: 80.961px;
+    flex-shrink: 0;
+}
+
+.related__list-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44px;
+}
+
+.related__list-bottom__item {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        padding-left: 10px;
+    }
+
+    span {
+        color: #49BBBD;
+        font-family: Font Awesome 5 Free;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
+
+.related__bottom {
+    width: 1700px;
+    display: flex;
+    justify-content: end;
+
+    .bottom__btn {
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: none;
+        margin-left: 20px;
+        background-color: #49BBBD;
+
+        i {
+            color: #FFF;
+            font-family: Font Awesome 5 Free;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+        }
+    }
+}
+.slide1{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    background-color: #49BBBD;
+
+    i {
+        color: #FFF;
+        font-family: Font Awesome 5 Free;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+   
+}
+.slide2{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    background-color: #49BBBD;
+
+    i {
+        color: #FFF;
+        font-family: Font Awesome 5 Free;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+    
+}
