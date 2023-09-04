@@ -7,6 +7,8 @@ function Blog() {
   return (
     <div className='Blog'>
         <Related/>
+        <BlogUI/>
+        <Marketing/>
     </div>
 
 )
