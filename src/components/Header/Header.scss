@@ -4,14 +4,19 @@
 .Header{
     background-color: rgba(73, 187, 189, 1);
 }
+.navs{
+    display: none;
+}
 .nav{
     padding-top: 27px;
-    margin-left: -282px;
+    margin-left: -248px;
     .nav_inner{
-        width: 1548px;
+        width: 1447px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 30px;
+
         .img{
             display: block;
         }
@@ -22,32 +27,47 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 826px;
+            width: 665px;
             position: relative;
+            margin-top: 13px;
             li{
                 font-size: 18px;
                 letter-spacing: 0.44px;
                 .nav-list-pages{
+                    text-decoration: none;
                     color: white;
                 }
+                .nav-list-pages2{
+                    text-decoration: none;
+                    color:rgba(91, 91, 91, 1);
+                }
                 .nav-list-login{
+                    text-decoration: none;
                     color: rgba(91, 91, 91, 1);
                 }
                 .nav-list-sign{
+                    text-decoration: none;
                     color: rgba(255, 255, 255, 1);
                 }
+                
             }
             .nav_login{
                 background-color: white ;
                 border: none;
                 padding: 13px 45px 14px 46px;
                 border-radius: 50px;
-                color: #5B5B5B;
                 font-size: 18px;
                 font-weight: 500;
                 letter-spacing: 0.44px;
-                margin-right: -45px;
+                margin-right: -151px;
+                margin-left: 9px;
                 // position: absolute;
+            }
+            .nav_login2{
+                display: none;
+            }
+            .nav_sign2{
+                display: none;
             }
             .nav_sign{
                 border: none;
@@ -59,11 +79,23 @@
                 font-size: 18px;
                 font-weight: 500;
                 letter-spacing: 0.44px;
-                margin-right: -126px;
+                margin-right: -1306px;
+                margin-left: 115px;
             }
-            .active{
-                color: red;
+        }
+        .header-profil{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 130px;
+            margin-left: -945px;
+            margin-right: -250px;
+            .header-select{
+                border: none;
             }
+        }
+        .header-profil2{
+            display: none;
         }
     }
 }

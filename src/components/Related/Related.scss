@@ -5,14 +5,17 @@
     width: 1910px;
     height: 1268px;
     flex-shrink: 0;
-    margin-left: -400px;
+    margin-left: -8px;
     overflow: hidden;
 }
 
 .related__top {
-    width: 1700px;
+    width: 1784px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-left: -418px;
+    margin-top: 93px;
 
     p {
         margin-left: 120px;

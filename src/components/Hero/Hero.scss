@@ -2,9 +2,6 @@
     width: 100%;
     height: 1118px;
     overflow: hidden;
-    // background-color:#49BBBD ;
-    // background-image: url('../../img/her-background.png');
-    // background-repeat: no-repeat;
 }
 .hero-innner{
     display: flex;
@@ -13,8 +10,8 @@
     width: 1676px;
     height: 1033px;
     .hero-backgroundimg{
-        margin-left: -391px;    
-        height: 1194px;
+        margin-left: -307px;
+        height: 1197px;
         margin-top: -199px;
     }
     .hero-right-background{
@@ -24,7 +21,7 @@
     }
 }
 .hero-left-inner{
-    margin-left: -1945px;
+    margin-left: -1991px;
     margin-top: -120.9px;
     h1{
         color: #FFF;
@@ -75,9 +72,10 @@
             border: none;
             color: #FFF;
             font-size: 24px;
+            margin-left: 86px;
         }
         h3{
-            margin-top: -13px;
+            margin-top: 10px;
             margin-left: -25px;
             letter-spacing: 2px;
         }
@@ -98,7 +96,7 @@
         align-items: center;
         height: 700px;
         margin-top: 376px;
-        margin-left: -765px;
+        margin-left: -682px;
         position: absolute;
         .hero-assisted{
             display: flex;
@@ -138,7 +136,7 @@
         justify-content: space-around;
         align-items: center;
         height: 700px;
-        margin-left: 112px;
+        margin-left: 270px;
     }
     .hero-right-item2{
         .hero-voice{

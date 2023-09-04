@@ -54,7 +54,7 @@ function Totc() {
             <p className='part1__p'>TOTC’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
             <Link className='part1__link'>Learn more</Link>
           </div>
-          <div className="part2">
+          <div className="totc-part2">
             <div className="box1">
             </div>
             <div className="box2">

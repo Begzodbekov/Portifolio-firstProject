@@ -11,6 +11,7 @@ function Related() {
   return (
     
     <div className='related'>
+        <div className="container">
         <div className="related__top">
             <p>
             Related Blog
@@ -57,6 +58,7 @@ function Related() {
                 
 
             </div>
+        </div>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import BlogUI from '../../components/BlogUI/BlogUI'
 function Blog() {
   return (
     <div className='Blog'>
-          <Related/>
+        <Related/>
         <BlogUI/>
     </div>
 
