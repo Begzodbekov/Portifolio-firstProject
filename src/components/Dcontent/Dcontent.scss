@@ -1,0 +1,35 @@
+
+.dcontent__list{
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+    margin-right: 157px;
+}
+.dcontent__list-item{
+    padding: 17px 50px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.10);
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 50px;
+}
+.dcontent__last-item{
+    padding: 17px 50px ;
+    border-radius: 12px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #49BBBD;
+    margin-left: 50px;
+
+
+    
+}
+

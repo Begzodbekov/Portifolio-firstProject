@@ -10,6 +10,8 @@ import Footer from './components/Footer/Footer';
 import Login from './pages/Login/Login';
 import Signup from './pages/Signup/Signup';
 import Header from './components/Header/Header';
+import Checkout from './pages/Checkout/Checkout';
+import Cdetail from './pages/Cdetail/Cdetail';
 
 function App() {
   return (
@@ -23,6 +25,9 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/signup' element={<Signup/>}/>
+        <Route path='/checkout' element={<Checkout/>}></Route>
+        <Route path='/course-detail'element={<Cdetail/>}></Route>
+        
       </Routes>
       <Footer/>
       

@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Login.scss'
 import leftInner from '../../img/left__inner.png'
 import { Link } from 'react-router-dom'
 
 function Login() {
+  const [loginbtn, setLoginbtn] = useState(0);
+
   return (
     <div className='Login'>
       <div className="login-inner">
@@ -14,9 +16,9 @@ function Login() {
           <h4 className='login-inner__tittle'>Welcome to lorem..!</h4>
           <div className='login-our__btns'>
             <button className='login-login__btn'>Login</button>
-            <button className='login-regis__btn'>Register</button>
+            <Link to={'/signup'}><button  className= 'login-regis__btn'>Register</button></Link>
           </div>
-          <p className='login-inner__info'>Lorem Ipsum is simply dummy text of the printing and <br /> typesetting industry.</p>
+          <p className='login-inner__info'>Lorem Ipsum is simply dummy text of the printing and  typesetting industry.</p>
           <h5 className='login-user__name'>User name</h5>
           <input className='login-inp__user-name' type="text" placeholder='Enter your User name'/>
           <h5 className='login-password'>Password</h5>
