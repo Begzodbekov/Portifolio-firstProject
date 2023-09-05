@@ -1,9 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import './Recommended.scss'
 import { forYou } from '../../lib/forYou'
 
 function Recommended() {
+  const location = useLocation().pathname
+  // const yonalish = useLocation().pathname
+  // function call(){
+  //   location == '/course-detail'
+  //   console.log(location);
+  // }
   return (
     <div className="recommended">
       <div className="container__recommended">
@@ -16,40 +22,42 @@ function Recommended() {
             
             {
               forYou?.map((item, index) => (
-                <li key={index} className='recommended__cards'>
-                  <img src={item.img1} alt="" className='rec__card__1__1' />
-                  <div className="cards__text">
-                    <span className='Design'>
-                      <img src={item.img2} alt="" />
-                      <p className='Design__text'>Design</p>
-                    </span>
-                    <span className='clock'>
-                      <img src={item.img3} alt="" />
-                      <p className='clock__text'>3 Month</p>
-                    </span>
-                  </div>
-                  <div className="cards__text__2">
-                    <span >
-                      <h3 className='card1__title1'>{item.title}</h3>
-                    </span>
-                    <span>
-                      <p className='card1__title2'>
-                        {item.content}
-                      </p>
-                    </span>
-                    <span className='Lina__card'>
-                      <img className='img4' src={item.img4} alt="" />
-                      <h5 className='Lina'>Lina</h5>
-                      <span className='price'>
-                      <p className='dollar__1'>$100</p>
-                      <p className='dollar2'>${item.price}</p>
-                    </span>
-                    </span>
+                <Link to='/course-detail'>         
+                  <li key={index} className='recommended__cards'>
+                    <img src={item.img1} alt="" className='rec__card__1__1' />
+                    <div className="cards__text">
+                      <span className='Design'>
+                        <img src={item.img2} alt="" />
+                        <p className='Design__text'>Design</p>
+                      </span>
+                      <span className='clock'>
+                        <img src={item.img3} alt="" />
+                        <p className='clock__text'>3 Month</p>
+                      </span>
+                    </div>
+                    <div className="cards__text__2">
+                      <span >
+                        <h3 className='card1__title1'>{item.title}</h3>
+                      </span>
+                      <span>
+                        <p className='card1__title2'>
+                          {item.content}
+                        </p>
+                      </span>
+                      <span className='Lina__card'>
+                        <img className='img4' src={item.img4} alt="" />
+                        <h5 className='Lina'>Lina</h5>
+                        <span className='price'>
+                        <p className='dollar__1'>$100</p>
+                        <p className='dollar2'>${item.price}</p>
+                      </span>
+                      </span>
 
-                  </div>
+                    </div>
 
 
-                </li>
+                  </li>
+              </Link>
               ))
             }
           </ul>
