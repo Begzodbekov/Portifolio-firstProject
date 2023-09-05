@@ -36,18 +36,18 @@ export const lessond = [
         img:lesson1,
         human:Humans
     },
-    // {
-    //     id:6,
-    //     name:'Lina',
-    //     title:'AWS Certified Solutions Architect',
-    //     img:lesson1,
-    //     human:Humans
-    // },
-    // {
-    //     id:7,
-    //     name:'Lina',
-    //     title:'AWS Certified Solutions Architect',
-    //     img:lesson1,
-    //     human:Humans
-    // },
+    {
+        id:6,
+        name:'Lina',
+        title:'AWS Certified Solutions Architect',
+        img:lesson1,
+        human:Humans
+    },
+    {
+        id:7,
+        name:'Lina',
+        title:'AWS Certified Solutions Architect',
+        img:lesson1,
+        human:Humans
+    },
 ]

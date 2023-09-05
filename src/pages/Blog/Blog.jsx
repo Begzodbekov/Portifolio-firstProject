@@ -6,8 +6,8 @@ import Marketing from '../../components/Marketing/Marketing'
 function Blog() {
   return (
     <div className='Blog'>
-        <Related/>
         <BlogUI/>
+        <Related/>
         <Marketing/>
     </div>
 
