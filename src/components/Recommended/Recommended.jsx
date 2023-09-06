@@ -13,7 +13,8 @@ function Recommended() {
 
   return (
     <div className="recommended">
-      <div className="container__recommended">
+     <div className="container">
+     <div className="container__recommended ">
         <div className="recommended__body">
           <div className="recommended__titles">
             <h5 className='rec__title1'>Recommended for you</h5>
@@ -21,8 +22,8 @@ function Recommended() {
           </div>
           <ul className='recommended__list'>
           <Swiper
-                    slidesPerView={3}
-                    spaceBetween={120}
+                    slidesPerView={4}
+                    spaceBetween={10}
                     navigation={true}
                     modules={[Navigation]}
                     className="mySwiper"
@@ -71,6 +72,7 @@ function Recommended() {
           </ul>
         </div>
       </div>
+     </div>
     </div>
   )
 }
