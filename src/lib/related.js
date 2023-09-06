@@ -17,5 +17,21 @@ export const related1 = [
     {
         id:4,
         img:relatedImg2
-    }
+    },
+    {
+        id:5,
+        img:relatedImg
+    },
+    {
+        id:6,
+        img:relatedImg2
+    },
+    {
+        id:7,
+        img:relatedImg
+    },
+    {
+        id:8,
+        img:relatedImg2
+    },
 ]

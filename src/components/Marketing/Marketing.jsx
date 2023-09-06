@@ -18,10 +18,11 @@ function Marketing() {
                 </div>
                 <div className="marketing__bottom">
                         <ul className='marketing__list'>
+                        
                              {
                                 marketing?.map((item,index)=>(
                                         <li className='marketing__item' key={index}>
-                                                <div className="marketing__item__top">
+                                               <div className="marketing__item__top">
                                                         <span className='img'>
                                                             <img src={item.img} alt="" />
                                                             </span>
