@@ -4,6 +4,7 @@ import Lessons from '../../components/Lessons/Lessons'
 import Recommended from '../../components/Recommended/Recommended'
 import Category from '../../components/Category/Category'
 import Choice from '../../components/Choice/Choice'
+import Student from '../../components/Student/Student'
 function Courses() {
   return (
     <div className='Courses'>
@@ -11,6 +12,7 @@ function Courses() {
         <Category/>
         <Recommended/>
         <Choice/>
+        <Student/>
     </div>
   )
 }

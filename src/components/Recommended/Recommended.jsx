@@ -2,27 +2,35 @@ import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './Recommended.scss'
 import { forYou } from '../../lib/forYou'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Navigation } from 'swiper/modules';
+
 
 function Recommended() {
-  const location = useLocation().pathname
-  // const yonalish = useLocation().pathname
-  // function call(){
-  //   location == '/course-detail'
-  //   console.log(location);
-  // }
+
   return (
     <div className="recommended">
-      <div className="container__recommended">
+     <div className="container">
+     <div className="container__recommended ">
         <div className="recommended__body">
           <div className="recommended__titles">
             <h5 className='rec__title1'>Recommended for you</h5>
             <Link className='rec__link1'>See all</Link>
           </div>
           <ul className='recommended__list'>
-            
+          <Swiper
+                    slidesPerView={4}
+                    spaceBetween={10}
+                    navigation={true}
+                    modules={[Navigation]}
+                    className="mySwiper"
+              >
             {
               forYou?.map((item, index) => (
-                <Link to='/course-detail'>         
+                 <SwiperSlide >     
                   <li key={index} className='recommended__cards'>
                     <img src={item.img1} alt="" className='rec__card__1__1' />
                     <div className="cards__text">
@@ -57,12 +65,14 @@ function Recommended() {
 
 
                   </li>
-              </Link>
+                  </SwiperSlide>
               ))
             }
+              </Swiper>
           </ul>
         </div>
       </div>
+     </div>
     </div>
   )
 }

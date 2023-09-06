@@ -3,15 +3,16 @@ import { Link } from 'react-router-dom'
 import { marketing } from '../../lib/Marketing'
 import img1 from '../../img/marketing__img__item.svg'
 import img2 from '../../img/markering__img__item2.svg'
-import './Marketing.scss'
+import './Student.scss'
 
-function Marketing() {
+function Student() {
   return (
     <div className='marketing'>
         <div className="container">
+                <div className="marketing__inner">
                 <div className="marketing__top">
                             <h2>
-                                    Marketing Articles
+                            Student are viewing
                             </h2>
                             <Link>See all</Link>
 
@@ -70,9 +71,10 @@ function Marketing() {
                              }
                         </ul>
                 </div>
+                </div>
         </div>
     </div>
   )
 }
 
-export default Marketing
+export default Student

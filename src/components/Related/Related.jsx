@@ -3,7 +3,11 @@ import './Related.scss'
 import related3 from '../../img/related__3.png'
 import {  related1 } from '../../lib/related'
 import { Link } from 'react-router-dom'
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Navigation } from 'swiper/modules';
 
 function Related() {
     const [active , setActive] = useState(0)
@@ -22,8 +26,17 @@ function Related() {
                     </p>
                 </div>
                 <ul className='related__list'>
+                <Swiper
+                    slidesPerView={2}
+                    spaceBetween={90}
+                    navigation={true }
+                    mousewheel={true}
+                    modules={[Navigation]}
+                    className="mySwiper strelka"
+              >
                         {
                             related1?.map((item , index)=>(
+                                <SwiperSlide>
                                     <li className='related__list-item' key={index}>
                                          <div className="big">
                                          <div className='related__list-div'>
@@ -49,15 +62,17 @@ function Related() {
                                          </div>
                             
                                     </li>
+                                    </SwiperSlide>
                             ))
                         }
+                         </Swiper>
                 </ul>
-            <div className="related__bottom">
-                <button onClick={()=> setActive(2)}  className={active == 2  ? 'slide2':'bottom__btn'}  ><i className="bi  bi-arrow-left-short"></i></button>
-                <button onClick={()=> setActive(1)}  className={active == 1  ? 'slide1':'bottom__btn'}><i className="bi  bi-arrow-right-short"></i></button>
+            {/* // <div className="related__bottom">
+            //     <button onClick={()=> setActive(2)}  className={active == 2  ? 'slide2':'bottom__btn'}  ><i className="bi  bi-arrow-left-short"></i></button>
+            //     <button onClick={()=> setActive(1)}  className={active == 1  ? 'slide1':'bottom__btn'}><i className="bi  bi-arrow-right-short"></i></button>
                 
 
-            </div>
+            // </div> */}
             </div>
         </div>
     </div>
