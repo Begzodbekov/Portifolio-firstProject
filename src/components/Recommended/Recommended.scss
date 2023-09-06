@@ -35,7 +35,7 @@
 
 .recommended__list {
     width: 1733.3px;
-    height: 617px;
+    height: 718px;
     display: flex;
     flex-direction: row;
     margin-left: 139px;
@@ -109,6 +109,7 @@
     height: 44px;
     margin-top: 16px;
     margin-bottom: 20px;
+
     .Lina {
         margin-left: 18px;
         margin-top: 16px;
@@ -142,13 +143,48 @@
     }
 }
 
-.recommended__cards{
+.recommended__cards {
     border-radius: 20px;
     background: #FFF;
-    box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.10);
-    padding-top: 20px;
-    padding-bottom: 38px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 50px;
+    box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+    padding: 20px 18px 38px 21px;
+    width: 375px;
 }
+
+.swiper-button-next {
+    background: #49BBBD;
+    color: white;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 300px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 11px 19px;
+}
+
+.swiper-button-prev {
+    background: #49BBBD;
+    color: white;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: 300px;
+    margin-left: 1500px;
+    border-radius: 10px;
+}
+
+.swiper-button-prev::after{
+    font-size: 15px !important;
+    font-weight: 800;
+
+}
+  .swiper-button-next::after{
+    font-size: 15px !important;
+    font-weight: 800;
+
+}
+
