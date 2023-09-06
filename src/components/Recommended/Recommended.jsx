@@ -2,14 +2,15 @@ import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './Recommended.scss'
 import { forYou } from '../../lib/forYou'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Navigation } from 'swiper/modules';
+
 
 function Recommended() {
-  const location = useLocation().pathname
-  // const yonalish = useLocation().pathname
-  // function call(){
-  //   location == '/course-detail'
-  //   console.log(location);
-  // }
+
   return (
     <div className="recommended">
       <div className="container__recommended">
@@ -19,10 +20,16 @@ function Recommended() {
             <Link className='rec__link1'>See all</Link>
           </div>
           <ul className='recommended__list'>
-            
+          <Swiper
+                    slidesPerView={3}
+                    spaceBetween={120}
+                    navigation={true}
+                    modules={[Navigation]}
+                    className="mySwiper"
+              >
             {
               forYou?.map((item, index) => (
-                <Link to='/course-detail'>         
+                 <SwiperSlide >     
                   <li key={index} className='recommended__cards'>
                     <img src={item.img1} alt="" className='rec__card__1__1' />
                     <div className="cards__text">
@@ -57,9 +64,10 @@ function Recommended() {
 
 
                   </li>
-              </Link>
+                  </SwiperSlide>
               ))
             }
+              </Swiper>
           </ul>
         </div>
       </div>
