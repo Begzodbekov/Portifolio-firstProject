@@ -1,9 +1,60 @@
-
-.choice-inner{
+.choice-inner {
     width: 1200px;
-    .choice-lists{
+
+    .choice-lists {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .choice__bottom__inner {
+        margin-left: -177px;
+        text-align: center;
+        width: 1682px;
+        height: 459px;
+        flex-shrink: 0;
+        border-radius: 37px;
+        background: #252641;
+
+        h2 {
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-top: 70px;
+        }
+
+        p {
+            text-align: center;
+            width: 1259px;
+            color: #FFF;
+            text-align: center;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 180%;
+            /* 43.2px */
+            letter-spacing: 0.48px;
+            margin: 0 auto;
+            padding-bottom: 73px;
+            padding-top: 30px;
+        }
+
+        button {
+            width: 236px;
+            height: 63px;
+            flex-shrink: 0;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            background-color: #49BBBD;
+            padding: 0 40px;
+            border: none;
+            border-radius: 12px;
+        }
     }
 }

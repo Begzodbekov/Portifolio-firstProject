@@ -1,8 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './Lessons.scss'
 import { lessond } from '../../lib/Lessond'
-import Left from '../../img/lessons-button_left.png'
-import Right from '../../img/lessons-button_right.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -23,7 +21,6 @@ function Lessons() {
                     spaceBetween={30}
                     navigation={true}
                     modules={[Navigation]}
-                    className="mySwiper"
               >
                   {
                     lessond?.map((item,index)=>(

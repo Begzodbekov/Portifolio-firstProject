@@ -1,19 +1,136 @@
+.Education{
+    margin-left: -190px;
+}
+.education-top{
+    width: 1650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 183px;
+}
+.see__all{
+    color: #49BBBD;
+    font-size: 20px;
+    font-weight: 700;
+}
 .first-item{
     background-image: url('../../img/education-img.png');
     background-repeat: none;
     width: 506px;
     height: 477px;
     padding: 40px 50px;
+    margin-top: 64px;
     span{
-        width: 100px;
-        height: 100px;
-        background-color: red;
-        color: white;
-        // display: block;
-        // margin-top: 40px;
-        border-radius: 12px;
-        text-align: center;
-        padding:35px 20px;
-        margin-left: 50px;
+       width: 100px;
+       height: 100px;
+       border-radius: 12px;
+       background: rgba(255, 0, 0, 0.60);
+       color: white;
+       display: block;
+       padding-left: 20px;
+       padding-top: 35px;
+       padding-right: 20px;
+       padding-bottom: 36px;
+       font-size: 24px;
+       font-weight: 700;
     }
+}
+.small__tittle{
+    color: white;
+    margin-top: 29px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.education__info{
+    width: 405px;
+    height: 120px;
+    color: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    line-height: 180%;
+    margin-top: 36px;
+}
+
+.second-item{
+    background-image: url('../../img/education-img.png');
+    background-repeat: none;
+    width: 506px;
+    height: 477px;
+    padding: 40px 50px;
+    margin-top: 64px;
+    margin-left: 70px;
+    span{
+       width: 100px;
+       height: 100px;
+       border-radius: 12px;
+       background: rgba(255, 0, 0, 0.60);
+       color: white;
+       display: block;
+       padding-left: 20px;
+       padding-top: 35px;
+       padding-right: 20px;
+       padding-bottom: 36px;
+       font-size: 24px;
+       font-weight: 700;
+    }
+}
+.small__tittle{
+    color: white;
+    margin-top: 29px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.education__info{
+    width: 405px;
+    height: 120px;
+    color: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    line-height: 180%;
+    margin-top: 36px;
+}
+.third-item{
+    background-image: url('../../img/education-img.png');
+    background-repeat: none;
+    width: 506px;
+    height: 477px;
+    padding: 40px 50px;
+    margin-top: 64px;
+    margin-left: 70px;
+    span{
+       width: 100px;
+       height: 100px;
+       border-radius: 12px;
+       background: rgba(255, 0, 0, 0.60);
+       color: white;
+       display: block;
+       padding-left: 20px;
+       padding-top: 35px;
+       padding-right: 20px;
+       padding-bottom: 36px;
+       font-size: 24px;
+       font-weight: 700;
+    }
+}
+.small__tittle{
+    color: white;
+    margin-top: 29px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.education__info{
+    width: 405px;
+    height: 120px;
+    color: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    line-height: 180%;
+    margin-top: 36px;
+}
+.education-item{
+    display: flex;
+    margin-bottom: 212px;
 }
