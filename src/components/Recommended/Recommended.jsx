@@ -56,7 +56,7 @@ function Recommended() {
                         <img className='img4' src={item.img4} alt="" />
                         <h5 className='Lina'>Lina</h5>
                         <span className='price'>
-                        <p className='dollar__1'>$100</p>
+                        <p className='dollar__1'><del>$100</del></p>
                         <p className='dollar2'>${item.price}</p>
                       </span>
                       </span>
