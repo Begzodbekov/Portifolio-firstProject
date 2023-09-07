@@ -1,20 +1,94 @@
 .choice-inner {
     width: 1200px;
-
-    .choice-lists {
+    margin-left: -171px;
+    margin-top: 90px;
+    .choice-top{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 1668px;
+    }   
+    .choice-lists{
+        width: 1668px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        gap: 50px;
+    }
+    .choice-items{
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.10);
+        padding: 20px 18px 38px 21px;
+    }
+    .choice-item-date{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 21px;
+        span{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 96px;
+            p{
+                margin-top: 15px;
+            }
+        }
+    }
+    .choice-title{
+        width: 320px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .choice-description{
+        color: #696984;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%; /* 32.4px */
+        letter-spacing: 0.36px;
+        margin-top: 21px;
+    }
+    .choice-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        :nth-child(2){
+            margin-top: 12px;
+            .choice-price{
+                margin-top: 12px;
+            }
+            .choice-price-p{
+                color: #49BBBD;
+                font-family: Poppins;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 0.48px;
+            }
+        }
+        span{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90px;
+
+        }
     }
 
     .choice__bottom__inner {
-        margin-left: -177px;
+        margin-left: -5px;
         text-align: center;
         width: 1682px;
         height: 459px;
         flex-shrink: 0;
         border-radius: 37px;
         background: #252641;
+        margin-top: 90px;
 
         h2 {
             color: #FFF;
@@ -57,4 +131,4 @@
             border-radius: 12px;
         }
     }
-}
+    }

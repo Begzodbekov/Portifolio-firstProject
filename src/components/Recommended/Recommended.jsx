@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import './Recommended.scss'
 import { forYou } from '../../lib/forYou'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -31,6 +31,7 @@ function Recommended() {
             {
               forYou?.map((item, index) => (
                  <SwiperSlide >     
+                  <Link to='/course-detail'>
                   <li key={index} className='recommended__cards'>
                     <img src={item.img1} alt="" className='rec__card__1__1' />
                     <div className="cards__text">
@@ -64,7 +65,7 @@ function Recommended() {
                     </div>
 
 
-                  </li>
+                  </li></Link>
                   </SwiperSlide>
               ))
             }

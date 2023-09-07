@@ -1,19 +1,19 @@
-.Student{
-    // margin-left: -360px;
+.Articles{
     background-color: #e6f0fc;
     padding: 96px 138px;
     margin-top: 90px;
 }
-.student__inner{
-  margin-left: -180px;
+.articles__inner{
+  margin-left: -219px;
 
 }
-.student__top{
+.articles__top{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1695px;
+  width: 1745px;
   margin-top: 90px;
+  margin-left: -31px;
   a{
     color: #49BBBD;
     font-family: Poppins;
@@ -23,13 +23,13 @@
     line-height: normal;
   }
 }
-.student__list{
+.articles__list{
   display: flex;
   justify-content: space-between;
   gap: 65px;
   margin-top: 50px;
 }
-.student__item {
+.articles__item {
 //   width: 374px;
 //   height: 617px;
 padding: 20px 18px 38px 21px;
@@ -39,13 +39,13 @@ background: #fff;
 box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
 
 }
-.student__item__top {
+.articles__item__top {
 .img {
   width: 335px;
   height: 239px;
   border-radius: 20px;
 }
-.student__item__icons {
+.articles__item__icons {
   p {
     margin-top: 10px;
     margin-left: 10px;
@@ -53,17 +53,17 @@ box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
   display: flex;
   justify-content: space-between;
   text-align: center;
-  .student__item__icons1 {
+  .articles__item__icons1 {
     display: flex;
     text-align: center;
   }
-  .student__item__icons2 {
+  .articles__item__icons2 {
     display: flex;
     text-align: center;
   }
 }
 }
-.student__center {
+.articles__center {
 h2 {
   width: 324px;
   height: 77px;
@@ -86,13 +86,14 @@ p {
   letter-spacing: 0.36px;
 }
 }
-.student__bottom {
+.articles__bottom {
 p {
   margin-top: 10px;
 }
 display: flex;
 justify-content: space-between;
-.student__bottom__icon1 {
+margin-left: 15px;
+.articles__bottom__icon1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -107,12 +108,12 @@ justify-content: space-between;
     letter-spacing: 0.36px;
   }
 }
-.student__bottom__icon2 {
+.articles__bottom__icon2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 90px;
-  .student__bottom__icon2__p{
+  .articles__bottom__icon2__p{
   color: #49BBBD;
   font-family: Poppins;
   font-size: 24px;
